@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   css: ['~/assets/css/main.scss'],
   devtools: { enabled: true },
-  ssr: false,
+
   hooks: {
     'prerender:routes': (routes) => {
       // maybe this is necessary?
@@ -36,8 +36,4 @@ export default defineNuxtConfig({
   },
 
   modules: ['@nuxt/image'],
-
-  app: {
-    buildAssetsDir: '/_nuxt/', // Default Nuxt assets path
-  },
 })
