@@ -3,7 +3,7 @@ export const CATEGORIES = {
   ENTREES: 'Entrées',
   PASTAS: 'Pastas',
   SALADS: 'Salads',
-  SANDWICHES: 'Sandwiches',
-  SNACKS: 'Snacks and Desserts',
+  SANDWICHES: 'Sandwiches & Wraps',
+  SNACKS: 'Snacks & Desserts',
   SOUPS: 'Soups'
 }
